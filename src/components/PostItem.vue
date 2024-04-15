@@ -6,6 +6,7 @@
             <div><strong>Body: </strong>{{post.body}}</div>
         </div>
         <div class="post__buttons">
+            <my-button @click="$router.push(`/posts/${post.id}`)">Open</my-button>
             <my-button
                 @click="$emit('remove', post)"
             >Delete</my-button>
@@ -34,6 +35,6 @@ export default {
         justify-content: space-between;
     }
     .post__buttons {
-
+        display: flex
     }
 </style>
