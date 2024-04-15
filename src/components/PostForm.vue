@@ -38,6 +38,14 @@ export default {
             }
         }
     },
+    // watch: {
+    //     post: {
+    //         handler(newVal) {
+    //             console.log(newVal)
+    //         },
+    //         deep: true // глубокое отслеживание
+    //     }
+    // },
 }
 </script>
 
